@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    padding: 10px;
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: 20px auto;
+
+}
+h1 {
+    color: green; 
+    font-size: 25px; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: yellow;
+    border-bottom: 3px solid;
+    
+
+}
+p {
+    color: blue;
+    line-height: 35px;
+}
+
+span{
+    color: grey;
+    font-weight: bolder;
+}
+
+a{
+    color:orangered
+}
+
+a:hover{
+    color:blue;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    border-radius: 50%;
+    display: block; margin: 0 auto;
+}
+
